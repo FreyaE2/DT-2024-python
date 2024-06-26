@@ -2,6 +2,5 @@
 
 ### What I'm doing:
 
-Link to Trello - Other planning page
+**Link to [Trello](https://trello.com/b/QssWOMW3/python-minecraft) - Other planning page**
 
-[Trello Page](https://trello.com/b/QssWOMW3/python-minecraft)
