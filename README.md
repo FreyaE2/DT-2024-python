@@ -6,3 +6,6 @@ This is the planning space for CSC assignment: 91907/91906.
 - The "Planning" File will include all my planning notes and images
 
 # Tracking
+26/06 - I started to research easygui, this is what I got from the tutorials:
+![My Code](https://github.com/FreyaE2/DT-2024-python/assets/129448624/980acb91-ba02-4513-b23b-fe5f90fc8899)
+![Output 1](https://github.com/FreyaE2/DT-2024-python/assets/129448624/9ef33b32-3dea-4446-b54c-fafb9e4f738e)
