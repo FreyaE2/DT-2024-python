@@ -26,3 +26,10 @@ Output 6:
 **31/07** - I have begun to start my actual code, i moved to tkinter as there are more tutorials and through reading I found it easier to use on RepLit. This code is me figuring out design, buttons and placement
 ![image](https://github.com/user-attachments/assets/645d7f22-57d4-4cbd-8b95-4f290fef1adb)
 
+![image](https://github.com/user-attachments/assets/21bbec7c-4cc1-459f-9ca7-a0fa87c7504f)
+(if exit is clicked the program will destroy itself)
+
+![image](https://github.com/user-attachments/assets/8a6cc17c-4e93-4cd8-8770-49f0aee0ae0e)
+(The dictionary is a test one at the moment)
+
+
