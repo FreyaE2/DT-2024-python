@@ -39,5 +39,13 @@ Code to define when the "in stock" button is clicked
 ![image](https://github.com/user-attachments/assets/dcb30847-45ac-4d45-8951-43171f73f979)
 When it's clicked this is what will show up, I now want to try to change the window colour and make the "in stock" more of a list instead of a row.
 
+![image](https://github.com/user-attachments/assets/52952aad-0965-4563-9e37-534d445e5b5b)
+
+![image](https://github.com/user-attachments/assets/998378c3-5463-4c5e-bba7-f910aafbe5b0)
+
+I have done all the demo's for each button, now I have got to refine them and add real music
+
+
+
 
 
