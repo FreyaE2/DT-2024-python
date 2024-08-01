@@ -32,4 +32,12 @@ Output 6:
 ![image](https://github.com/user-attachments/assets/8a6cc17c-4e93-4cd8-8770-49f0aee0ae0e)
 (The dictionary is a test one at the moment)
 
+**02/08**
+![image](https://github.com/user-attachments/assets/5f0adc2e-bccd-477d-8fbc-c92d04cf9751)
+Code to define when the "in stock" button is clicked
+
+![image](https://github.com/user-attachments/assets/dcb30847-45ac-4d45-8951-43171f73f979)
+When it's clicked this is what will show up, I now want to try to change the window colour and make the "in stock" more of a list instead of a row.
+
+
 
