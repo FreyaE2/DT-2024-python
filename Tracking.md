@@ -45,6 +45,9 @@ When it's clicked this is what will show up, I now want to try to change the win
 
 I have done all the demo's for each button, now I have got to refine them and add real music
 
+![image](https://github.com/user-attachments/assets/639ca45c-30fb-4090-a38e-22c0bb7cd627)
+
+
 
 
 
