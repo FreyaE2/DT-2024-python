@@ -24,6 +24,7 @@ Output 6:
 ![Output 6](https://github.com/FreyaE2/DT-2024-python/assets/129448624/fe841ccb-7f62-4eec-94a2-69b9caa13708)
 
 **31/07** - I have begun to start my actual code, i moved to tkinter as there are more tutorials and through reading I found it easier to use on RepLit. This code is me figuring out design, buttons and placement
+
 ![image](https://github.com/user-attachments/assets/645d7f22-57d4-4cbd-8b95-4f290fef1adb)
 
 ![image](https://github.com/user-attachments/assets/21bbec7c-4cc1-459f-9ca7-a0fa87c7504f)
