@@ -48,7 +48,30 @@ I have done all the demo's for each button, now I have got to refine them and ad
 
 ![image](https://github.com/user-attachments/assets/639ca45c-30fb-4090-a38e-22c0bb7cd627)
 
+**18/09**
 Had to debug, the words would dissapear outside the window and wouldnt show, had to figure out how to make a list
+Firstly I wanted to change the layout to what I had originally planned (Horizontal) so thats what I did (I used my old tests and research to figure out how to do it)
+
+![image](https://github.com/user-attachments/assets/b1ea50b8-91d4-424e-b9b9-c3f8cac71543)
+Code to align buttons (pady and padx is what I was missing)
+
+![image](https://github.com/user-attachments/assets/7c772e65-8064-4e68-807d-e8c0ae019d09)
+Button positions now
+
+Then I had to sort out how to make my songs into a list, I wanted it to be a dictionary type thing that the program could read from
+
+![image](https://github.com/user-attachments/assets/cf42439b-d9ac-47ef-b69e-195e0d927d0c)
+Code for the list (and names for the on loan list (fake names for now))
+
+![image](https://github.com/user-attachments/assets/6575f915-a4e1-42a0-9984-4ca8950d3b32)
+Code for reading from the list (a lot of google research, videos and tutorials to find this)
+
+![image](https://github.com/user-attachments/assets/a1ef7de8-2b54-4f3d-91c5-849e18d1c1a0)
+What it looks like now when the button is pressed
+
+The webpage is finally coming together and it is what i wanted it to look like, I need to tweak a few things and add names now.
+
+
 
 
 
