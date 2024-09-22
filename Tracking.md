@@ -48,6 +48,8 @@ I have done all the demo's for each button, now I have got to refine them and ad
 
 ![image](https://github.com/user-attachments/assets/639ca45c-30fb-4090-a38e-22c0bb7cd627)
 
+Had to debug, the words would dissapear outside the window and wouldnt show, had to figure out how to make a list
+
 
 
 
