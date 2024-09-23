@@ -58,13 +58,13 @@ Code to align buttons (pady and padx is what I was missing)
 ![image](https://github.com/user-attachments/assets/7c772e65-8064-4e68-807d-e8c0ae019d09)
 Button positions now
 
-Then I had to sort out how to make my songs into a list, I wanted it to be a dictionary type thing that the program could read from
+Then I had to sort out how to make my songs into a list, I wanted it to be a dictionary type thing that the program could read from so I found out how to actaully code that and how I could make sure when the window is opened those songs would appear
 
 ![image](https://github.com/user-attachments/assets/cf42439b-d9ac-47ef-b69e-195e0d927d0c)
 Code for the list (and names for the on loan list (fake names for now))
 
 ![image](https://github.com/user-attachments/assets/6575f915-a4e1-42a0-9984-4ca8950d3b32)
-Code for reading from the list (a lot of google research, videos and tutorials to find this)
+Code for reading from the list
 
 ![image](https://github.com/user-attachments/assets/a1ef7de8-2b54-4f3d-91c5-849e18d1c1a0)
 What it looks like now when the button is pressed
