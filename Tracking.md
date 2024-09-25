@@ -33,7 +33,8 @@ Output 6:
 ![image](https://github.com/user-attachments/assets/8a6cc17c-4e93-4cd8-8770-49f0aee0ae0e)
 (The dictionary is a test one at the moment)
 
-**02/08**
+**02/08** Just more additions to my code to make it more like my first plan
+
 ![image](https://github.com/user-attachments/assets/5f0adc2e-bccd-477d-8fbc-c92d04cf9751)
 Code to define when the "in stock" button is clicked
 
@@ -48,8 +49,7 @@ I have done all the demo's for each button, now I have got to refine them and ad
 
 ![image](https://github.com/user-attachments/assets/639ca45c-30fb-4090-a38e-22c0bb7cd627)
 
-**18/09**
-Had to debug, the words would dissapear outside the window and wouldnt show, had to figure out how to make a list
+**18/09** Had to debug, the words would dissapear outside the window and wouldnt show, had to figure out how to make a list
 Firstly I wanted to change the layout to what I had originally planned (Horizontal) so thats what I did (I used my old tests and research to figure out how to do it)
 
 ![image](https://github.com/user-attachments/assets/b1ea50b8-91d4-424e-b9b9-c3f8cac71543)
@@ -58,8 +58,7 @@ Code to align buttons (pady and padx is what I was missing)
 ![image](https://github.com/user-attachments/assets/7c772e65-8064-4e68-807d-e8c0ae019d09)
 Button positions now
 
-**20/09** 
-Then I had to sort out how to make my songs into a list, I wanted it to be a dictionary type thing that the program could read from so I found out how to actaully code that and how I could make sure when the window is opened those songs would appear
+**20/09** Then I had to sort out how to make my songs into a list, I wanted it to be a dictionary type thing that the program could read from so I found out how to actaully code that and how I could make sure when the window is opened those songs would appear
 
 ![image](https://github.com/user-attachments/assets/cf42439b-d9ac-47ef-b69e-195e0d927d0c)
 Code for the list (and names for the on loan list (fake names for now))
@@ -72,8 +71,8 @@ What it looks like now when the button is pressed
 
 The webpage is finally coming together and it is what i wanted it to look like, I need to tweak a few things and add names now.
 
-**25/09**
-I started to add the list of songs I wanted into the list but they ended up showing outside the screen
+**25/09** I started to add the list of songs I wanted into the list but they ended up showing outside the screen
+
 ![image](https://github.com/user-attachments/assets/83f70266-cc7c-49ba-ac26-a1dc14927974)
 Showing the names being cut off
 
