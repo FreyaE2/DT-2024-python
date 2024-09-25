@@ -72,6 +72,25 @@ What it looks like now when the button is pressed
 
 The webpage is finally coming together and it is what i wanted it to look like, I need to tweak a few things and add names now.
 
+**25/09**
+I started to add the list of songs I wanted into the list but they ended up showing outside the screen
+![image](https://github.com/user-attachments/assets/83f70266-cc7c-49ba-ac26-a1dc14927974)
+Showing the names being cut off
+
+This made me realise that I would need to add a scroll bar into it
+![image](https://github.com/user-attachments/assets/3a81e501-5c81-462c-9818-2def6707e6b2)
+First test of the scroll bar (have to edit code later)
+
+![image](https://github.com/user-attachments/assets/36ad7de4-921b-4397-acfe-a9e5c4c31869)
+And this is what it ended up like, this meant I could scroll and see all the names
+
+The only issue is that when it's put into full screen it looks weird but for now this is good
+![image](https://github.com/user-attachments/assets/2fb4bda3-fc25-4cd8-83b9-3f01ad3e07a3)
+When the window is in full screen
+
+
+
+
 
 
 
