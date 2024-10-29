@@ -104,6 +104,18 @@ The only issue is that when it's put into full screen it looks weird but for now
 When the window is in full screen
 
 
+**FINAL CODE**
+
+![image](https://github.com/user-attachments/assets/ed01925a-b117-4e8a-bcef-9aa3ac754a36)
+![image](https://github.com/user-attachments/assets/a20ee98e-3876-4586-8597-d802e35fa618)
+![image](https://github.com/user-attachments/assets/d4cc4e08-d882-487d-9352-3e3934aaa09a)
+![image](https://github.com/user-attachments/assets/eb8cfd98-cb50-4e90-90b6-d5dcc567fd49)
+![image](https://github.com/user-attachments/assets/227a435f-530e-49a5-a343-bd04467d5098)
+![image](https://github.com/user-attachments/assets/573bbfc4-b093-4639-81da-409acefe9a52)
+
+
+
+
 
 
 
