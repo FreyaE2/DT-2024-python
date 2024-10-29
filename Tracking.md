@@ -105,6 +105,163 @@ When the window is in full screen
 
 
 
+**FINAL CODE**
+#How I have imported tkinter to use
+import tkinter as tk
+from tkinter import ttk
+
+# Start the Tkinter main loop
+root = tk.Tk()
+root.geometry('400x400')
+root.resizable(width=False, height=False)
+root.title("Welcome")
+
+#---colours to use later---
+colour1 = '#ffd3b6'
+colour2 = '#dfa3a5'
+colour3 = '#c79eb0'
+colour4 = '#000000'
+
+#start of my main window
+main_frame = tk.Frame(root, bg=colour1, pady=40) #inside colour change
+main_frame.pack(fill=tk.BOTH, expand=True)
+main_frame.columnconfigure(0, weight=1)
+main_frame.rowconfigure(0, weight=1)
+main_frame.rowconfigure(1, weight=1)
+
+#In stock list that the in stock button will read from
+in_stock_list = ['Kill the Director - The Wombats', 
+                 'Angel - Massive Attack', 
+                 'Enjoy the Silence - Depeche Mode',
+                 'HOT TO GO - Chappell Roan',
+                 'Iris - The Goo Goo Dolls'
+                ]
+
+#on loan list that the on loan button will read from
+on_loan_list = ['Goo Goo Muck - The Cramps (JW)', 
+                'Baby Doll- Dominic Fike (HK)', 
+                'Change - Deftones (AM)', 
+                'California Love - 2Pac (NB)', 
+                'Sprinter - Dave (AB)'
+               ]
+#on loan list that the on loan button will read from
+over_due_list = ['Monsoon - Tokio Hotel (3 days, AE)',
+                 'Drive By - Train (6 days, JE)',
+                 'Baby - Justin Bieber (1 day, LS)',
+                 'Cry - CAS (1 week, AK)',
+                 'Duvet - BOA (4 days, FE)'
+               ]
+
+#Programing the buttons to do something by defining the command
+#--- defs---
+def instock_clicked():
+  window = tk.Tk()
+  window.title('Stock')
+  window.geometry('300x200')
+  #Bold "in stock" at the top of the page
+  label1_title = tk.Label(master = window, text = 'In Stock:', font='Calibri 24 bold') 
+  label1_title.pack(pady=20)
+  #---scroll bar---
+  
+  #this controls how far I can scroll
+  canvas = tk.Canvas(window, width = 300, height = 100,  scrollregion=(0, 0, 300, 200)) 
+  #the position of the arrows / scroll bar
+  scrollbar = tk.Scrollbar(window, orient="vertical", command=canvas.yview) 
+  canvas.configure(yscrollcommand=scrollbar.set)
+  #this means that the scroll bar is on the right side and it has a vertical bar 
+  scrollbar.pack(side="right", fill="y") 
+  canvas.pack(side="left")
+  frame = tk.Frame(canvas)
+   #position of the frame and ensures all the text can be read 
+  canvas.create_window((0, 0), window=frame, anchor="nw") 
+  for i in in_stock_list: #how it reads from the 'in stock' list
+    label_instock = tk.Label(master = frame, text = i, font='Calibri 10')
+    label_instock.pack(pady=5) #the padding between each one
+  
+
+#when the button is clicked it will open a new window
+def onloan_clicked():
+  window2 = tk.Tk()
+  window2.title('On Loan') #new window title
+  window2.geometry('300x200') #new window size
+  label2_title = tk.Label(master = window2, text = 'On Loan:', font='Calibri 24 bold')
+  label2_title.pack(pady=20)
+  canvas = tk.Canvas(window2, width = 300, height = 100,  scrollregion=(0, 0, 300, 200))
+#---scroll bar---
+  
+  scrollbar = tk.Scrollbar(window2, orient="vertical", command=canvas.yview)
+  canvas.configure(yscrollcommand=scrollbar.set)
+  scrollbar.pack(side="right", fill="y")
+  canvas.pack(side="left")
+  frame = tk.Frame(canvas)
+  canvas.create_window((0, 0), window=frame, anchor="nw")
+  for i in on_loan_list: #how it reads from the 'on loan' list
+    label_onloan = tk.Label(master = frame, text = i, font='Calibri 10')
+    label_onloan.pack(pady=5) #the padding between each one
+
+def overdue_clicked():
+  window3 = tk.Tk()
+  window3.title('Overdue')
+  window3.geometry('300x200')
+  label3_title = ttk.Label(master = window3, text = 'Over Due', font='Calibri 24 bold')
+  label3_title.pack(pady=20)
+  canvas = tk.Canvas(window3, width = 300, height = 100,  scrollregion=(0, 0, 300, 200))
+  #--- scroll bar ---
+  
+  scrollbar = tk.Scrollbar(window3, orient="vertical", command=canvas.yview)
+  canvas.configure(yscrollcommand=scrollbar.set)
+  scrollbar.pack(side="right", fill="y")
+  canvas.pack(side="left")
+  frame = tk.Frame(canvas)
+  canvas.create_window((0, 0), window=frame, anchor="nw")
+  for i in over_due_list: #how it reads from the 'on loan' list
+    label_overdue = tk.Label(master = frame, text = i, font='Calibri 10')
+    label_overdue.pack(pady=5) #the padding between each one
+
+
+#--- Buttons --- 
+button1 = tk.Button(
+  main_frame,
+  background=colour2, #button background
+  foreground=colour4, #text colour
+  text='In Stock', #what the button says
+  command=instock_clicked #what it does when it's clicked
+)
+
+button2 = tk.Button(
+  main_frame,
+  background=colour2,
+  foreground=colour4,
+  text='On Loan',
+  command=onloan_clicked
+)
+
+button3 = tk.Button(
+  main_frame,
+  background=colour2,
+  foreground=colour4,
+  text='Overdue',
+  command=overdue_clicked
+)
+
+button4 = tk.Button(
+  main_frame,
+  background=colour2,
+  foreground=colour4,
+  text='Exit',
+  command=root.destroy #this is what closes the root page / only the main window
+)
+
+#pbutton placement, padx is padding on the x axis pady is padding on the y axis
+button1.pack(side=tk.LEFT, padx=10, pady=10)
+button2.pack(side=tk.LEFT, padx=10, pady=10)
+button3.pack(side=tk.LEFT, padx=10, pady=10)
+button4.pack(side=tk.BOTTOM, padx=5, pady=5)
+
+#how it starts up the main root page
+root.mainloop()
+
+
 
 
 
